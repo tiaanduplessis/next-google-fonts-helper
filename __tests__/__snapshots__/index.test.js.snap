@@ -3,7 +3,7 @@
 exports[`<NextGoogleFontsHelper/> 1`] = `
 Array [
   <link
-    crossorigin={true}
+    crossOrigin={true}
     href="https://fonts.gstatic.com"
     rel="preconnect"
   />,
