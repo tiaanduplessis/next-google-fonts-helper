@@ -1,6 +1,6 @@
 {
   "name": "next-google-fonts-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Little component for loading Google fonts fast in Next.js",
   "repository": "https://github.com/tiaanduplessis/next-google-fonts-helper",
   "license": "MIT",
