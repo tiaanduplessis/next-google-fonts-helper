@@ -1,0 +1,57 @@
+{
+  "name": "next-google-fonts-helper",
+  "version": "1.0.0",
+  "description": "Little component for loading Google fonts fast in Next.js",
+  "repository": "https://github.com/tiaanduplessis/next-google-fonts-helper",
+  "license": "MIT",
+  "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "babel src --ignore src/stories --out-dir dist",
+    "format": "prettier --write '**/*.js'",
+    "lint:package": "sort-package-json",
+    "test": "jest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.1%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-jest": "^26.0.1",
+    "husky": ">=4",
+    "jest": "^26.0.1",
+    "lint-staged": ">=10",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
+    "sort-package-json": "^1.44.0"
+  },
+  "peerDependencies": {
+    "react": "^16"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "prettier --write"
+  }
+}

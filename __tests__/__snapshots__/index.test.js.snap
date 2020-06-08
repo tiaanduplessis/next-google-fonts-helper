@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NextGoogleFontsHelper/> 1`] = `
+Array [
+  <link
+    crossorigin={true}
+    href="https://fonts.gstatic.com"
+    rel="preconnect"
+  />,
+  <link
+    as="style"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+    rel="preload"
+  />,
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+    media="print"
+    onload="this.media='all'"
+    rel="stylesheet"
+  />,
+  <noscript>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </noscript>,
+]
+`;
