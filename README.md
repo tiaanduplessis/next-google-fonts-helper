@@ -64,4 +64,4 @@ $ yarn add next-google-fonts-helper
 
 ## License
 
-MIT © [[object Object]]([object Object])
+MIT
