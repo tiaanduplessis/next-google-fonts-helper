@@ -14,7 +14,7 @@ const GoogleFontsHelper = memo(
     }, [fonts]);
 
     return [
-      <link rel="preconnect" href={preconnect} crossorigin />,
+      <link rel="preconnect" href={preconnect} crossOrigin />,
       preload && <link rel="preload" as="style" href={str} />,
       <link rel="stylesheet" href={str} media="print" onload="this.media='all'" />,
       <noscript>

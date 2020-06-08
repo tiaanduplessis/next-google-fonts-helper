@@ -6,9 +6,10 @@
   "license": "MIT",
   "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
   "main": "dist/index.js",
+  "files": ["dist"],
   "scripts": {
     "prepare": "yarn build",
-    "build": "babel src --ignore src/stories --out-dir dist",
+    "build": "babel src --out-dir dist",
     "format": "prettier --write '**/*.js'",
     "lint:package": "sort-package-json",
     "test": "jest"
